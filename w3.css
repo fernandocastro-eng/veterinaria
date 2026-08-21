@@ -1,0 +1,100 @@
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  background-color: #f8fafc !important;
+  color: #1e293b !important;
+}
+
+/* Sidebar Blanco Minimalista */
+.w3-sidebar {
+  width: 260px !important;
+  background-color: #ffffff !important;
+  border-right: 1px solid #e2e8f0 !important;
+  position: fixed !important;
+  z-index: 3 !important;
+}
+
+.w3-main {
+  margin-left: 260px !important;
+}
+
+@media (max-width: 992px) {
+  .w3-main { margin-left: 0 !important; }
+  .w3-sidebar { display: none !important; }
+}
+
+/* Menú Navegación */
+.w3-bar-block .w3-bar-item {
+  color: #64748b !important;
+  border-radius: 8px !important;
+  margin: 4px 12px !important;
+  width: auto !important;
+  transition: all 0.2s ease !important;
+}
+
+.w3-bar-block .w3-bar-item:hover {
+  background-color: #f1f5f9 !important;
+  color: #2563eb !important;
+}
+
+/* Tarjetas Principales en Blanco */
+.w3-card-clean {
+  background-color: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+
+.w3-card-header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #f1f5f9 !important;
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+  padding: 16px 20px !important;
+}
+
+/* Inputs de Formulario */
+.w3-input-clean {
+  width: 100% !important;
+  background-color: #f8fafc !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  color: #0f172a !important;
+  padding: 10px 14px !important;
+  outline: none !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease !important;
+}
+
+.w3-input-clean:focus {
+  background-color: #ffffff !important;
+  border-color: #2563eb !important;
+}
+
+/* Botones */
+.w3-btn-clean {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.w3-btn-clean:hover {
+  background-color: #1d4ed8 !important;
+}
+
+.w3-btn-secondary {
+  background-color: #f1f5f9 !important;
+  color: #475569 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+}
+
+.w3-btn-secondary:hover {
+  background-color: #e2e8f0 !important;
+}
